@@ -1,0 +1,477 @@
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+BE+WAL+Guides&family=Playwrite+CU+Guides&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+
+body {
+  font-size: 14px;
+  line-height: 24px;
+
+  /* font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal; */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Lato", Times, serif;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+}
+/* Global CSS Start Here*/
+.container {
+  width: 1160px;
+  margin: 0 auto;
+}
+.row {
+  width: 100%;
+  float: left;
+}
+
+.col-md-6 {
+  width: 50%;
+  float: left;
+}
+.col-md-12 {
+  width: 100%;
+  float: left;
+}
+.col-md-4 {
+  width: 33.33%;
+  float: left;
+}
+/* Global CSS End Here */
+
+/* header-section CSS Start here */
+.header-section {
+  width: 100%;
+  float: left;
+  background: #f6f9f9;
+
+  /* .nav{
+    border-radius: 50px;
+  } */
+}
+.header-section .logo {
+  padding: 15px 0;
+}
+.header-section .nav {
+  padding: 24px 0;
+  text-align: center;
+}
+.header-section .nav ul li {
+  margin-left: 25px;
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+.header-section .nav ul li a {
+  color: #000;
+  transition: 0.4s;
+}
+
+.header-section .nav ul li a:hover {
+  color: #f6f9f9;
+  font-size: 20px;
+  background: #15a4fa;
+  padding: 10px;
+    border-radius: 50px;
+}
+/* header-section CSS End here */
+
+/* Banner Section Code Start Here  */
+.banner-section {
+  width: 100%;
+  float: left;
+  padding: 80px 0;
+  background: url("../img/Banner.png") center top no-repeat;
+  background-size: cover;
+}
+.banner-section .banner-inner {
+  padding: 80px 0;
+  text-align: center;
+}
+
+.banner-section .banner-inner h1 {
+  font-size: 80px;
+  font-weight: 900;
+  color: #fff;
+  line-height: 100px;
+  text-transform: uppercase;
+  /* margin-bottom: 20px; */
+}
+.divider {
+  height: 2px;
+  width: 40%;
+  margin: 25px auto;
+  background: #15a4fa;
+  border: none;
+}
+.banner-section .banner-inner p {
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+  line-height: 24px;
+  margin-bottom: 60px;
+}
+
+.banner-section .banner-inner .btn-info {
+  border: 1px solid #15a4fa;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  padding: 10px 25px;
+  color: #fff;
+  background: transparent;
+  border-radius: 2px;
+  transition: 0.5s;
+  display: inline-block;
+  text-transform: capitalize;
+  border-radius: 15px;
+}
+/* Banner Section Code End Here  */
+
+.banner-section .banner-inner .btn-info:hover {
+  background: #15a4fa;
+  color: #fff;
+  font-size: 18px;
+  border: 1px solid #fff;
+}
+
+.banner-section .banner-inner .icon {
+  padding: 80px 0 40px;
+  margin-top: 80px;
+}
+
+/* Simple section start here   */
+.simple-section {
+  width: 100%;
+  float: left;
+  padding: 80px 0;
+  background: #f6f9f9;
+}
+
+.simple-section .simple-inner {
+  text-align: center;
+}
+
+.simple-section .simple-inner h1 {
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 50px;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.simple-section .simple-inner p {
+  font-size: 18px;
+  line-height: 24px;
+  color: #999;
+  font-weight: 400;
+}
+/* Simple section End here   */
+
+/* Feature-section CSS Start Here */
+.feature-section {
+  width: 100%;
+  float: left;
+  padding: 80px 0;
+}
+
+.feature-section .feature-inner {
+  text-align: center;
+}
+
+.feature-inner h3 {
+  font-size: 22px;
+  color: #000;
+  margin-bottom: 15px;
+}
+.feature-inner p {
+  font-size: 14px;
+  color: #999;
+}
+/* Feature-section CSS End Here */
+
+/* Portfolio-section CSS Start Here */
+.portfolio-section {
+  width: 100%;
+  float: left;
+  padding: 80px 0;
+  background: #f6f9f9;
+}
+
+.portfolio-section .title {
+  width: 100%;
+  float: left;
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+.portfolio-section .title h1 {
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 50px;
+  color: #000;
+  margin-bottom: 15px;
+}
+
+.portfolio-section .title p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #999;
+}
+
+.gap{
+  margin-top: 15px;
+
+}
+
+.portfolio-inner{
+  position: relative;
+}
+
+.port-hover{
+  width: 93.3%;
+  height: 97.5%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background: rgb(25, 156, 235, 0.8);
+  display: none;
+}
+
+.inner-icon{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.portfolio-inner:hover .port-hover{
+  display: block;
+}
+
+.port-hover a{
+  margin: 0 5px;
+}
+/* Portfolio-section CSS End Here */
+
+/* .form-wrapper{
+  width: 100%;
+  float: left;
+  padding: 80px 0;
+  background: url("../img/Stay.png") center top no-repeat;
+}
+
+.form-wrapper h1{
+  text-align: center;
+
+}
+
+.subtitle{
+  text-align: center;
+}
+
+.form-footer{
+  text-align: center;
+}
+
+.form-group{
+  text-align: center;
+  margin-left: 43.5%;
+}
+
+.block{
+  display: block;
+} */
+
+/* .form-section{
+  width: 100%;
+  float: left;
+  padding: 80px 0;
+  background: url("../img/Stay.png") center top no-repeat;
+  color: #999;
+}
+
+.form-section .col-md-12 h1{
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 50px;
+  margin-bottom: 15px;
+}
+
+.form-section .col-md-12{
+   font-size: 10px;
+  font-weight: 400;
+  line-height: 24px;
+  color: white;
+}
+.input{
+  display: block;
+  padding: 15px;
+  margin: 20px;
+  background: transparent;
+  border: 1px solid #999;
+}
+.form-section .row{
+  text-align: center;
+}
+
+.form-section .form{
+  margin-left: 17px;
+  margin-top: 20px;
+}
+
+.btn-form{
+  padding: 10px 15px;
+  border: 1px solid #999;
+  background: transparent;
+}
+
+.form .row{
+  margin-left: 38%;
+}
+.footer .col-md-6{
+  
+} */
+
+/* Stay section CSS Start Here */
+.stay-section{
+  width: 100%;
+  float: left;
+  padding: 80px 0;
+  background: url("../img/Stay.png") center top no-repeat;
+  background-size: cover;
+}
+.stay-section .title{
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+.stay-section .title h1{
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 52px;
+  margin-bottom: 15px;
+  color: white;
+}
+.stay-section .title p{
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #999;
+}
+/* Stay section CSS End Here */
+
+.main-form{
+  width: 55%;
+  margin: 0 auto;
+}
+.form-group{
+  margin: 10px 0;
+}
+.form-control{
+  width: 95%;
+  padding: 12px;
+  background: transparent;
+  border: 2px solid aquamarine;
+  border-radius: 5px;
+  font-size: 14px;
+  color: white;
+}
+
+.col-md-8{
+  width: 66.67%;
+  float: left;
+}
+span{
+  color: white;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.btn-primary{
+  background: transparent;
+  padding: 10px 30px;
+  font-size: 16px;
+  color: #fff;
+  border: 1px solid #15a4fa;
+  border-radius: 100px;
+  transition: 1s;
+  float: right;
+
+}
+.btn-primary:hover{
+  background: #15a4fa;
+  border: 1px solid white;
+}
+
+/* .text-right{
+  text-align: right;
+} */
+
+/* .form-group .btn-primary{
+  margin-left: 90%;
+} */
+
+/* Footer section CSS start Here */
+.footer-section{
+  width: 100%;
+  float: left;
+  padding: 15px 0;
+  background: #f6f9f9;
+}
+
+.footer-section p{
+  font-size: 16px;
+  line-height: 24px;
+  line-width: 400;
+  color: #999;
+}
+
+.social-icon{
+  text-align: right;
+}
+
+.social-icon ul li a{
+  width: 60px;
+  height: 40px;
+  font-size: 16px;
+  background: #15a4fa;
+  color: #fff;
+  padding: 5px;
+  margin-left: 10px;
+  border-radius: 5px;
+  border: 1px solid #15a4fa;
+  transition: 0.5s;
+
+}
+
+.social-icon ul li a:hover{
+  color: #15a4fa;
+  background: #fff;
+}
+/* Footer section CSS End Here */
+
+/* Slider-section */
+.slider-section{
+  padding: 80px 0;
+  background: #15a4fa;
+}
